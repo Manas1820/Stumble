@@ -3,6 +3,7 @@ package db
 import (
 	"log"
 	"os"
+	"path/filepath"
 	"stumble/models"
 
 	"github.com/joho/godotenv" // package used to read the .env file
@@ -12,7 +13,13 @@ import (
 
 func Init() *gorm.DB {
 
-	err := godotenv.Load(".env")
+	dir, err := filepath.Abs(filepath.Dir(os.Args[0]))
+	if err != nil {
+		log.Fatal(err)
+	}
+	environmentPath := filepath.Join(dir, ".env")
+	err = godotenv.Load(environmentPath)
+	log.Fatalln(err)
 
 	if err != nil {
 		log.Fatalf("Error loading .env file")
@@ -29,4 +36,8 @@ func Init() *gorm.DB {
 	db.AutoMigrate(&models.User{})
 
 	return db
+}
+
+func fatal(err error) {
+	panic("unimplemented")
 }
