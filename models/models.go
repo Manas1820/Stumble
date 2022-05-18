@@ -13,4 +13,5 @@ type User struct {
 
 type Like struct {
 	ID int64 `json:"id"`
+	
 }
