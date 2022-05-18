@@ -9,8 +9,5 @@ import (
 
 func main() {
 	r := router.Router()
-	// fs := http.FileServer(http.Dir("build"))
-	// http.Handle("/", fs)
-
 	log.Fatal(http.ListenAndServe(":"+os.Getenv("PORT"), r))
 }
