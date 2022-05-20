@@ -1,4 +1,4 @@
-# Stumble
+<h1 align="center">Stumble</h1>
 
 ## Create a Dating App
 
@@ -16,7 +16,7 @@ using Golang’s ORM of your choice.
 ORM used - <b>GORM</b>
 
 
-Tasks - 
+## Tasks - 
 
 - After creating the database model- import the user’s JSON file
 and “likes” data in the DB.
@@ -31,5 +31,12 @@ users which have q in their name
 
 ## [API Documentation](https://documenter.getpostman.com/view/20830684/Uyxogiaa)
 
+## Author
+
+👤 **Manas Gupta**
+
+* Github: [@manas1820](https://github.com/manas1820)
+* LinkedIn: [@manas-gupta-253760192](https://linkedin.com/in/manas-gupta-253760192)
 
 ## Deployment Done On [Heroku](https://stumble-date.herokuapp.com/)
+
