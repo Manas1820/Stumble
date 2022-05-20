@@ -26,5 +26,8 @@ func Router() *mux.Router {
 	// Handle the distance search
 	router.HandleFunc("/api/bonding", h.GetDistanceBasedUser).Methods("GET", "OPTIONS")
 
+	// Handle the distance search
+	router.HandleFunc("/api/match/{id}", h.SpecificPartnerSearch).Methods("GET", "OPTIONS")
+
 	return router
 }
