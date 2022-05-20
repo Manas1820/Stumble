@@ -13,8 +13,9 @@ Also you are given a list of likes. (eg. A likes B- C likes A- B likes A- D
 likes C,( Create a database model in any RDBM` for the dating app
 using Golang’s ORM of your choice.
 
-ORM used - <b>GORM</b>
-
+ORM used - <b>GORM</b><br>
+Database Used -  <b>PostgreSQL</b><br>
+#### Database Used is also hosted on Heroku
 
 ## Tasks - 
 
@@ -29,7 +30,7 @@ distance of each user in the 1D coordinate system)
 users which have q in their name
 
 
-## [API Documentation](https://documenter.getpostman.com/view/20830684/Uyxogiaa)
+### [API Documentation](https://documenter.getpostman.com/view/20830684/Uyxogiaa)
 
 ## Author
 
@@ -38,5 +39,5 @@ users which have q in their name
 * Github: [@manas1820](https://github.com/manas1820)
 * LinkedIn: [@manas-gupta-253760192](https://linkedin.com/in/manas-gupta-253760192)
 
-## Deployment Done On [Heroku](https://stumble-date.herokuapp.com/)
+### Deployment Done On [Heroku](https://stumble-date.herokuapp.com/)
 
