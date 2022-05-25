@@ -37,7 +37,6 @@ users which have q in their name
 👤 **Manas Gupta**
 
 * Github: [@manas1820](https://github.com/manas1820)
-* LinkedIn: [@manas-gupta-253760192](https://linkedin.com/in/manas-gupta-253760192)
 
 ### Deployment Done On [Heroku](https://stumble-date.herokuapp.com/)
 
